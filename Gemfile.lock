@@ -1,0 +1,41 @@
+PATH
+  remote: .
+  specs:
+    api_clientable (0.1.0)
+      faraday
+      faraday_middleware
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    awesome_print (1.8.0)
+    coderay (1.1.2)
+    dotenv (2.5.0)
+    faraday (0.15.2)
+      multipart-post (>= 1.2, < 3)
+    faraday_middleware (0.12.2)
+      faraday (>= 0.7.4, < 1.0)
+    method_source (0.9.0)
+    minitest (5.11.3)
+    multipart-post (2.0.0)
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    rake (10.5.0)
+    vcr (4.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  api_clientable!
+  awesome_print
+  bundler (~> 1.14)
+  dotenv
+  minitest
+  pry
+  rake (~> 10.0)
+  vcr
+
+BUNDLED WITH
+   1.16.1
